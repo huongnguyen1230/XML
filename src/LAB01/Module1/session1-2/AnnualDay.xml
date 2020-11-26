@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annual_Day company = "Aptech">
+    <Event>
+        <!-- gives the names of the people who played an important role -->
+        <Coordinator>
+            James
+        </Coordinator>
+        <SoundManager>
+            Kim
+        </SoundManager>
+        <Director>
+            Daniel
+        </Director>
+    </Event>
+    <Event>
+        <!-- gives descriptions of the values -->
+        Drama
+        <Name>A doctor's story</Name>
+        <Director>Spencor</Director>
+        <Participants number = "4">Tony, Bony, Sam, Lily</Participants>
+    </Event>
+    <Event>
+        Group Song
+        <Theme>Patriotic</Theme>
+        <Composer>Chin Chan</Composer>
+        <Participants number = "3">Rose, Jack, Steve</Participants>
+    </Event>
+</Annual_Day>

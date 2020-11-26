@@ -1,0 +1,32 @@
+<?practice_xml version="1.0" encoding="UTF-8" ?>
+<!--
+    document: HumanAnatomy.practice_xml
+    author: vincent
+    description: It gives the description of the human
+-->
+
+<Human_Anatony>
+    <!-- explanation of each system-->
+    <System>
+        <Name number = "206 bones">
+            Skeleton system
+        </Name>
+        <Function>
+            Forms a protective model to protect the muscles.
+        </Function>
+        <Type>
+            1.&quot; Axial&quot; skeleton 2.&quot; Appendicular&quot; skeleton
+        </Type>
+    </System>
+    <System>
+        <Name>
+            Digestive system
+        </Name>
+        <Function>
+            Breaks down the chemical components of food.
+        </Function>
+        <Part>
+            1.Mouth 2.Throat 3.Stomach 4.Intestines 5.Rectum 6.Anus
+        </Part>
+    </System>
+</Human_Anatony>
