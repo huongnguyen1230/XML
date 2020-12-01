@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type= "text/xsl" href = "SalesData_Stylesheet.xsl"?>
+
+<CottonDesk>
+    <SalesPerson>
+        <Product>Monitor</Product>
+        <Name>Harry Diana</Name>
+        <Age>23</Age>
+        <Sale>4000</Sale>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>David Blake</Name>
+        <Age>32</Age>
+        <Sale>20000</Sale>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>Harry Queen</Name>
+        <Age>20</Age>
+        <Sale>45000</Sale>
+    </SalesPerson>
+</CottonDesk>

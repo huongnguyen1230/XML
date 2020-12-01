@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type= "text/xsl" href = "sale.xsl"?>
+
+<CottonDesk>
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>Susan Jones</Name>
+        <Age>55</Age>
+        <Sale>15000</Sale>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>David Blake</Name>
+        <Age>32</Age>
+        <Sale>5000</Sale>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>Martin Howell</Name>
+        <Age>25</Age>
+        <Sale>45000</Sale>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>Tony Kemp</Name>
+        <Age>35</Age>
+        <Sale>12000</Sale>
+    </SalesPerson>
+</CottonDesk>

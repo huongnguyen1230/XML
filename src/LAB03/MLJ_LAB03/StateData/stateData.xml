@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type= "text/xsl" href = "stateData.xsl"?>
+
+<class>
+    <State>
+        <Name>California</Name>
+        <Population>33871648</Population>
+        <Capital>Sacramento</Capital>
+        <Bird>Quail</Bird>
+        <Flower>Golden Poppy</Flower>
+        <Area>155959</Area>
+    </State>
+
+    <State>
+        <Name>Massachusetts</Name>
+        <Population>6347164</Population>
+        <Capital>Boston</Capital>
+        <Bird>Chickadee</Bird>
+        <Flower>Mayflower</Flower>
+        <Area>7840</Area>
+    </State>
+
+    <State>
+        <Name>New York</Name>
+        <Population>18871648</Population>
+        <Capital>Albany</Capital>
+        <Bird>BlueBird</Bird>
+        <Flower>Rose</Flower>
+        <Area>47595</Area>
+    </State>
+</class>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="html"/>
+
+    <xsl:template match="/">
+        <xsl:for-each select="CottonDesk/SalesPerson">
+            <xsl:if test="Product= 'Laptop'">
+                <xsl:choose>
+
+                    <xsl:when test="Sale > 20000">
+                        <span style="color: red;">
+                            NAME:
+                            <xsl:value-of select="Name"/>
+                            AGE:
+                            <xsl:value-of select="Age"/>
+                            You Commision is $500
+                        </span>
+                    </xsl:when>
+
+                    <xsl:when test="Sale > 10000">
+                        <span style="color: purple;">
+                            NAME:
+                            <xsl:value-of select="Name"/>
+                            AGE:
+                            <xsl:value-of select="Age"/>
+                            You Commision is $5000
+                        </span>
+                    </xsl:when>
+
+                    <xsl:otherwise>
+                        <span style="color: black;">
+                            NAME:
+                            <xsl:value-of select="Name"/>
+                            AGE:
+                            <xsl:value-of select="Age"/>
+                            You Commision is $0
+                        </span>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <br/>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+</xsl:stylesheet>

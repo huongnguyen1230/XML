@@ -1,0 +1,11 @@
+/*
+    Document:Music
+    Author: vincent
+    Description: Style sheet for Music.xml
+ */
+
+Artist {color: blue}
+
+* {display: block}
+
+#favourite {background-color: lightblue; color: blue}
